@@ -19,6 +19,49 @@ body{
 
 /* ....common style end......
 ........................ */
+/* ..................................................................... */
+
+/* header section start */
+
+
+.nav{
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 1px whitesmoke;
+}
+
+.nav-menu> ul >a{
+
+    text-decoration: none;
+
+   
+
+    
+}
+
+.nav-menu> ul{
+
+    display: flex;
+    list-style: none;
+    
+    
+}
+
+.nav-menu> ul > a > li{
+
+    margin: 15px;
+    color: #3A3A3A;
+    
+}
+
+.nav-menu> ul > a > i{
+
+    margin: 15px;
+    color: #3A3A3A;
+}
+/* header section end */
 
 /* main-camera-section start..........
 ........................... */
@@ -27,8 +70,8 @@ body{
 
     
     background-color: white;
-    margin: 5px;
-    padding: 120px;
+    margin: 3px;
+    padding: 100px;
 }
 
 /* main camera start.........
@@ -137,7 +180,7 @@ body{
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 100px;
+    margin-left: 30px;
     grid-column-gap: 50px;
     grid-row-gap: 50px;
 }
@@ -189,7 +232,7 @@ body{
 
     margin-top: 40px;
 
-    margin-left: 60px;
+    margin-left: 30px;
 
     margin-bottom: 50px;
 }
@@ -209,14 +252,29 @@ body{
 /* feature products section end.......................
 .............................................................. */
 
+/* text-form start....................
+............................................................... */
+
+.text-form{
+
+    text-align: center;
+    margin: 50px;
+    color: orange;
+}
+
+/* text form end.................................
+......................................................... */
+
 /* footer section start */
 
 .footer{
 
    
     background-color: black ;
-    margin-left: 50px;
+    margin-left: 20px;
 }
+
+/* ............................................................................. */
 
 
 
@@ -274,3 +332,139 @@ body{
 
 
 /* footer section end */
+
+
+/* media query start for mobile device.......................
+............................... */
+
+@media only screen and (max-width:767px) {
+
+    .nav{
+
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 50px;
+        box-shadow: 1px 1px 1px whitesmoke;
+    }
+
+    .nav-menu> ul{
+
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        
+        
+    }
+
+    /* .......................................... */
+
+
+    .main-camera{
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 69px;
+}
+
+
+/* button class */
+.button{
+
+    background-color:  #E02C6D;
+    color: white;
+   /* padding-top: 50px;
+   padding-bottom: 50px;
+   padding-left: 2px;
+   padding-right: 5px; */
+    text-decoration: none;
+    border-radius: 5px;
+    /* font-size: 6px; */
+    /* font-weight: 700; */
+    /* width: 5px;
+    height: 4px; */
+    
+    
+}
+
+/* main-camera-image resize */
+
+.main-camera-image img{
+
+    width: 200px;
+    height: 200px;
+  
+   
+}
+
+
+/* company-logo display */
+
+.company-logo{
+
+    display: flex;
+    flex-direction: column;
+     justify-content: space-between; 
+   
+    padding: 43px;
+    /* box-shadow: 0.5px 0.5px 0.5px #eeeeee; */
+    margin-bottom: 100px;
+}
+
+.logo{
+
+    margin: 25px;
+}
+
+
+.collection-div{
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+     /* margin-left: 1px;  */
+    /* grid-column-gap: 50px; */
+    /* grid-row-gap: 50px; */
+    align-items: center;
+}
+
+.feature-products{
+
+    margin-top: 40px;
+
+    /* margin-left: 30px; */
+
+    margin-bottom: 50px;
+}
+
+.feature-product{
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.product-details{
+
+
+    /* margin-left: 60px; */
+}
+
+.footer{
+
+   
+    background-color: black ;
+    /* margin-left: 20px; */
+}
+
+.main-section{
+
+    
+    background-color: white;
+    /* margin: 3px; */
+    /* padding: 100px; */
+}
+
+}
+
+/* media query end for moblile device....................................
+.................................................. */
