@@ -208,3 +208,69 @@ body{
 
 /* feature products section end.......................
 .............................................................. */
+
+/* footer section start */
+
+.footer{
+
+   
+    background-color: black ;
+    margin-left: 50px;
+}
+
+
+
+
+
+.footer-text{
+
+    color: white;
+    text-align: center;
+
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.footer-img .fa-square-instagram{
+    color: white;
+    margin-right: 10px;
+
+    
+}
+
+.footer-img .fa-square-twitter{
+    color: white;
+    margin-right: 10px;
+
+    
+}
+
+.footer-img .fa-youtube{
+    color: white;
+    margin-right: 10px;
+
+    
+}
+
+.footer-img .fa-facebook{
+    color: white;
+    margin-right: 10px;
+
+    
+}
+
+.footer-img{
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+   
+   
+}
+
+
+
+
+/* footer section end */
