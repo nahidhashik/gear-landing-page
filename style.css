@@ -138,12 +138,15 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-left: 100px;
-    grid-column-gap: 5px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
 }
 
 .collection{
 
     margin-bottom: 10px;
+
+    box-shadow: 20px 20px 30px whitesmoke;
 }
 
 /* star font color */
