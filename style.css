@@ -108,10 +108,54 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 43px;
-    box-shadow: 0.5px 0.5px 0.5px #eeeeee;;
+    box-shadow: 0.5px 0.5px 0.5px #eeeeee;
+    margin-bottom: 100px;
 }
 
 /* company logo end.................
 ............................. */
 
 /* ................................................................. */
+
+/* popular collection section start..........
+........................................... */
+
+/* section title */
+.collection-title{
+
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #3A3A3A ;
+    height: 70px;
+
+}
+
+/* collection display */
+
+.collection-div{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 100px;
+    grid-column-gap: 5px;
+}
+
+.collection{
+
+    margin-bottom: 10px;
+}
+
+/* star font color */
+.fa-star{
+
+    color: orange;
+}
+
+.fa-star-half-stroke{
+
+    color: orange;
+}
+
+/* popular collection section end....................
+.................................... */
