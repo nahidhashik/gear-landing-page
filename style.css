@@ -181,3 +181,30 @@ body{
 /* right-button end......................
 .................................................. */
 /* ............................................................................. */
+
+/* feature products section start.....................
+......................................... */
+
+.feature-products{
+
+    margin-top: 40px;
+
+    margin-left: 60px;
+
+    margin-bottom: 50px;
+}
+
+.feature-product{
+
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.product-details{
+
+
+    margin-left: 60px;
+}
+
+/* feature products section end.......................
+.............................................................. */
